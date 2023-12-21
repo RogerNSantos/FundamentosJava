@@ -20,7 +20,8 @@ public class TipoString {
 		var sobrenome = "Santos";
 		var salario = 223.87;
 		
-		System.out.println("meu nome é :" + nome + " de sobre nome" + sobrenome + "meu salário é R$ " + salario);
+		System.out.println("Meu nome é: " + nome + " de sobre nome " 
+		+ sobrenome + " meu salário é R$ " + salario);
 	}
 
 }
