@@ -6,16 +6,16 @@ public class DesafioConversao {
 	
 	public static void main(String[] args) {
 		
-		Scanner entrada = new Scanner(System.in);
+		Scanner conversao = new Scanner(System.in);
 		
 		System.out.print("Informe o primeiro salário: ");
-		String salario1 = entrada.next().replace(",", ".");
+		String salario1 = conversao.next().replace(",", ".");
 		
 		System.out.print("Informe o segundo salário: ");
-		String salario2 = entrada.next().replace(",", ".");
+		String salario2 = conversao.next().replace(",", ".");
 		
 		System.out.print("Informe o terceiro salário: ");
-		String salario3 = entrada.next().replace(",", ".");
+		String salario3 = conversao.next().replace(",", ".");
 		
 		double numero1 = Double.parseDouble(salario1);
 		double numero2 = Double.parseDouble(salario2);
@@ -25,7 +25,7 @@ public class DesafioConversao {
 		System.out.println("A média salarial é: " + media);
 		
 	
-		entrada.close();
+		conversao.close();
 		
 	}
 
